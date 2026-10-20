@@ -10,6 +10,19 @@ This is a series of books diving deep into the core mechanisms of the JavaScript
 
 If you're looking for the previous **first edition** books, [they can be found here](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md).
 
+## About This Standalone Edition
+
+- **Main repository:** [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+- **Based on version:** the upstream **`2nd-ed` branch** at commit `044120ef55564939cd35f5ddaf3f6c0a45d7b02c` (snapshotted 2026-10-20; upstream HEAD dated 2026-01-18). This edition is based explicitly on the upstream default branch `2nd-ed` — the second edition — not on the `1st-ed` branch
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit, the explicit 2nd-ed branch provenance, and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the book text (upstream ships no workflows, so markdown-check is this repo's first)
+  - Repository About description and homepage set to the upstream project, with the enhancements and versions stated there too
+- **Credit & licence:** All original work belongs to Kyle Simpson (getify) and the You Don't Know JS contributors. Licence is preserved unchanged — see `LICENSE.txt` (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International, CC BY-NC-ND 4.0 — the licence text the GitHub API reports as NOASSERTION). Upstream's own `.editorconfig` is kept as-is. This edition adds the enhancements listed above only.
 ## Titles
 
 I recommend reading the **second edition** books in this order:
